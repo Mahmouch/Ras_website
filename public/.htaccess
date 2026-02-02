@@ -1,8 +1,16 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
+  
+  # Ne pas réécrire les fichiers et dossiers existants
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Rediriger toutes les routes vers index.html
   RewriteRule . /index.html [L]
+</IfModule>
+
+# Alternative si mod_rewrite n'est pas disponible
+<IfModule !mod_rewrite.c>
+  FallbackResource /index.html
 </IfModule>
