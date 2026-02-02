@@ -1,0 +1,62 @@
+[
+  {
+    "id": "blink",
+    "name": "LED Blink - Arduino",
+    "description": "Basic LED Flashing Simulation with ESP32",
+    "projectId": "443360044168640513",
+    "thumbnail": "https://wokwi.com/projects/338197473667154514/thumbnail.png",
+    "difficulty": "Beginner",
+    "tags": ["Arduino", "LED", "Basique"],
+    "estimatedTime": "5 min"
+  },
+  {
+    "id": "esp32-sensor",
+    "name": "Capteur DHT22 - ESP32",
+    "description": "Reading temperature and humidity with ESP32",
+    "projectId": "443375508944090113",
+    "thumbnail": "https://wokwi.com/projects/443375508944090113/thumbnail.png",
+    "difficulty": "Intermediate",
+    "tags": ["ESP32", "Capteur", "IoT"],
+    "estimatedTime": "15 min"
+  },
+  {
+    "id": "servo-motor",
+    "name": "Servo Motor - Arduino",
+    "description": "Servo motor control with potentiometer",
+    "projectId": "443375340770309121",
+    "thumbnail": "https://wokwi.com/projects/338197473667154516/thumbnail.png",
+    "difficulty": "Intermediate",
+    "tags": ["Arduino", "Servo", "Contrôle"],
+    "estimatedTime": "10 min"
+  },
+  {
+    "id": "lcd-display",
+    "name": "LCD Display - Arduino",
+    "description": "16x2 LCD text display",
+    "projectId": "443375340770309121",
+    "thumbnail": "https://wokwi.com/projects/338197473667154517/thumbnail.png",
+    "difficulty": "Intermediate",
+    "tags": ["Arduino", "LCD", "Affichage"],
+    "estimatedTime": "12 min"
+  },
+  {
+    "id": "ultrasonic-sensor",
+    "name": "Ultrasonic Sensor - Arduino",
+    "description": "Distance measurement with HC-SR04 sensor",
+    "projectId": "443375340770309121",
+    "thumbnail": "https://wokwi.com/projects/338197473667154518/thumbnail.png",
+    "difficulty": "Intermediate",
+    "tags": ["Arduino", "Ultrason", "Distance"],
+    "estimatedTime": "8 min"
+  },
+  {
+    "id": "wifi-weather",
+    "name": "WiFi Weather Station - ESP32",
+    "description": "Connected weather station with web display",
+    "projectId": "443375340770309121",
+    "thumbnail": "https://wokwi.com/projects/338197473667154519/thumbnail.png",
+    "difficulty": "Advance",
+    "tags": ["ESP32", "WiFi", "Web", "IoT"],
+    "estimatedTime": "25 min"
+  }
+]
